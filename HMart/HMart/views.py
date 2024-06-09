@@ -25,3 +25,7 @@ def PRODUCT(request):
         'categories': categories,
     }
     return render(request, 'Main/product.html')
+
+
+def CONTACT(request):
+    return render(request, 'Main/contact.html')
